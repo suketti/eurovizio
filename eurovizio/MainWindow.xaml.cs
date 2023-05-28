@@ -149,5 +149,10 @@ namespace eurovizio
             }
             CloseDatabaseConnection();
         }
+
+        private void btnEight(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Nem tudom hogy egyébként miért csináltam 8. gombot, \n amikor a 8. feladathoz nem szükséges, \n viszont mivel már itt van ezért benne hagyom kis easter eggnek. \n Üdvözlöm Tanár úrat! ");
+        }
     }
 }
